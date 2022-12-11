@@ -51,7 +51,7 @@ Users should be able to:
 
 ## Setup
 
-- run `npm i && npm run dev`
+- First run `npm install` and then `npm run dev`
 
 ## Author
 
