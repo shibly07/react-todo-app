@@ -11,10 +11,10 @@ const TodoList = ({
   statusFilter,
 }) => {
   return (
-    <div className="mt-20 md:mt-[5.625rem] text-white flex flex-col items-center">
+    <div className="mt-28 md:mt-[5.625rem] text-white flex flex-col items-center">
       <div className="w-2/3 md:w-[46rem]">
         {/* Category of tasks and numbers */}
-        <section className="flex justify-between font-bold items-center">
+        <section className="flex gap-3 flex-col md:flex-row md:justify-between font-bold items-center">
           <Tasks
             currentTask={"All tasks"}
             currentTaskCount={statusFilter["All"].length}

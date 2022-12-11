@@ -57,7 +57,7 @@ const Main = () => {
 
   return (
     <>
-      <div className="min-h-screen w-full bg-[#1A1A1A]">
+      <div className="min-h-screen min-w-full bg-[#1A1A1A]">
         <div className="h-[130px] md:h-[200px] bg-[#0D0D0D] flex justify-center items-center">
           <div className="h-[70] w-[90px]  md:h-[96px] md:w-[126px] flex justify-between items-center">
             <img
